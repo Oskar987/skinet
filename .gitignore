@@ -34,3 +34,7 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+# certificates
+.crt
+.key 
