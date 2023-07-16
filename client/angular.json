@@ -68,8 +68,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "client:build",
-            "sslKey": "ssl/privateKey.key",
-            "sslCert": "ssl/certificate.crt",
+            "sslKey": "ssl/localhost-key.pem",
+            "sslCert": "ssl/localhost.pem",
             "ssl": true
           },
           "configurations": {
